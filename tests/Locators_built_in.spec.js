@@ -49,4 +49,19 @@ test('Built-in locators', async ({page}) => {
     // клика по кнопке, по тексту, проверяем, что он видим.
     await expect(await page.getByText(' Insight ')).toBeVisible()
 
+// getByLabel()
+    // находим элемент с нужной меткой и заносим в переменную
+    const goHomeText = await page.getByLabel('home')
+    // проверяем элемент на видимость
+    await expect(goHomeText).toBeVisible()
+
+// getByTitle()
+    await expect(page.getByTitle('Disabled button')).toHaveText('Disabled')
+
 })
+
+
+// getByTestId()
+    //Вне рамок теста:
+    // Находим элемент с определенным тестовым идентификатором и кликаем по нему
+    await page.getByTestId('directions').click();
