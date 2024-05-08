@@ -10,7 +10,8 @@ export const demoblaze = {
     passwordInput: '#loginpassword',
     loginSubmitBtn: '//*[@id="logInModal"]/div/div/div[3]/button[2]',
     logoutSection: '//*[@id="logout2"]',
-    allProductLinkElement: '.card-title > a'
+    allProductLinkElement: '.card-title > a',
+    pageBanner: '.navbar-brand'
 }
 
 export const letcode = {
