@@ -47,7 +47,7 @@ test('Built-in locators', async ({page}) => {
 
     // находим элемент, который может быть виден только после
     // клика по кнопке, по тексту, проверяем, что он видим.
-    await expect(await page.getByText(' Insight ')).toBeVisible()
+    await expect(page.getByText(' Insight ')).toBeVisible()
 
 // getByLabel()
     // находим элемент с нужной меткой и заносим в переменную
