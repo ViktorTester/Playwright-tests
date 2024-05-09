@@ -19,7 +19,9 @@ export const letcode = {
     inputEditBtn: 'Edit',
     editSectionBtn: ".card-footer > a",
     allSectionBtns: '.card-footer-item',
-    newCourseBtn: 'div > .button.is-link'
+    newCourseBtn: 'div > .button.is-link',
+    CheckboxYes: '#yes',
+    CheckboxNo: '#no'
 }
 
 export const nopcommerce = {
