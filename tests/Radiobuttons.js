@@ -5,7 +5,7 @@ import {
 
 const {test, expect} = require('@playwright/test')
 
-test('Handling Checkboxes and radiobuttons', async ({page}) => {
+test('Handling radiobuttons', async ({page}) => {
 
     await page.goto(url.url2);
 
