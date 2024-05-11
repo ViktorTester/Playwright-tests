@@ -1,7 +1,8 @@
 export const urls = {
     url1: 'https://demoblaze.com',
     url2: 'https://letcode.in/test',
-    url3: 'https://demo.nopcommerce.com/register'
+    url3: 'https://demo.nopcommerce.com/register',
+    url4: 'https://testautomationpractice.blogspot.com'
 }
 
 export const demoblaze = {
@@ -34,4 +35,8 @@ export const nopcommerce = {
     pageH1Title: '.page-title > h1',
     firstNameInput: '#FirstName',
     dayDropdownValues: 'select[name="DateOfBirthDay"] option'
+}
+
+export const testautomationpractice = {
+    CountryDropdown: '#country'
 }
