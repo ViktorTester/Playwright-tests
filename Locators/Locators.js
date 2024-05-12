@@ -2,7 +2,8 @@ export const urls = {
     url1: 'https://demoblaze.com',
     url2: 'https://letcode.in/test',
     url3: 'https://demo.nopcommerce.com/register',
-    url4: 'https://testautomationpractice.blogspot.com'
+    url4: 'https://testautomationpractice.blogspot.com',
+    url5: 'https://jquery-az.com/boots/demo.php?ex=63.0_2'
 }
 
 export const demoblaze = {
@@ -38,5 +39,6 @@ export const nopcommerce = {
 }
 
 export const testautomationpractice = {
-    CountryDropdown: '#country'
+    CountryDropdown: '#country',
+    MultiSelectDropdown: '#colors'
 }
