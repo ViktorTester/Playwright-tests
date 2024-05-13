@@ -42,3 +42,8 @@ export const testautomationpractice = {
     CountryDropdown: '#country',
     MultiSelectDropdown: '#colors'
 }
+
+export const jquery_az = {
+    dropdownOptions: 'ul > li label input',
+    allDropdownOptions : 'ul > li label'
+}
