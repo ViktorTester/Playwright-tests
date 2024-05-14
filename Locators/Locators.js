@@ -3,7 +3,8 @@ export const urls = {
     url2: 'https://letcode.in/test',
     url3: 'https://demo.nopcommerce.com/register',
     url4: 'https://testautomationpractice.blogspot.com',
-    url5: 'https://jquery-az.com/boots/demo.php?ex=63.0_2'
+    url5: 'https://jquery-az.com/boots/demo.php?ex=63.0_2',
+    url6: 'https://www.redbus.in'
 }
 
 export const demoblaze = {
@@ -46,4 +47,10 @@ export const testautomationpractice = {
 export const jquery_az = {
     dropdownOptions: 'ul > li label input',
     allDropdownOptions : 'ul > li label'
+}
+
+export const redbus = {
+    searchField: "#src",
+    allOptions: '.sc-dnqmqq.eFEVtU > li > div > .placeHolderMainText',
+    searchInput: '.sc-gzVnrw.bSzhQs'
 }
