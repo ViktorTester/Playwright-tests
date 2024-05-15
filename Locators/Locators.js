@@ -4,7 +4,8 @@ export const urls = {
     url3: 'https://demo.nopcommerce.com/register',
     url4: 'https://testautomationpractice.blogspot.com',
     url5: 'https://jquery-az.com/boots/demo.php?ex=63.0_2',
-    url6: 'https://www.redbus.in'
+    url6: 'https://www.redbus.in',
+    url7: 'https://opensource-demo.orangehrmlive.com'
 }
 
 export const demoblaze = {
@@ -53,4 +54,8 @@ export const redbus = {
     searchField: "#src",
     allOptions: '.sc-dnqmqq.eFEVtU > li > div > .placeHolderMainText',
     searchInput: '.sc-gzVnrw.bSzhQs'
+}
+
+export const opensource_demo = {
+    allOptSelector: '.oxd-select-dropdown.--positon-bottom > div'
 }
