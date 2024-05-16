@@ -42,7 +42,8 @@ export const nopcommerce = {
 
 export const testautomationpractice = {
     CountryDropdown: '#country',
-    MultiSelectDropdown: '#colors'
+    MultiSelectDropdown: '#colors',
+    alertTextAnswer: '#demo'
 }
 
 export const jquery_az = {
