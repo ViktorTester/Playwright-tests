@@ -66,5 +66,8 @@ export const ui_vision = {
     firstFrameLink: 'https://ui.vision/demo/webtest/frames/frame_1.html',
     firstFrameInput: '[name="mytext1"]',
     SecondFrameLoc: 'frame[src="frame_2.html"]',
-    secondFrameInput: '[name="mytext2"]'
+    secondFrameInput: '[name="mytext2"]',
+    thirdFrameLink: 'https://ui.vision/demo/webtest/frames/frame_3.html',
+    thirdFrameInput: '[name="mytext3"]',
+    radioOther: '#i5 > div.vd3tt > div'
 }
