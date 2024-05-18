@@ -5,7 +5,8 @@ export const urls = {
     url4: 'https://testautomationpractice.blogspot.com',
     url5: 'https://jquery-az.com/boots/demo.php?ex=63.0_2',
     url6: 'https://www.redbus.in',
-    url7: 'https://opensource-demo.orangehrmlive.com'
+    url7: 'https://opensource-demo.orangehrmlive.com',
+    url8: 'https://ui.vision/demo/webtest/frames/'
 }
 
 export const demoblaze = {
@@ -59,4 +60,11 @@ export const redbus = {
 
 export const opensource_demo = {
     allOptSelector: '.oxd-select-dropdown.--positon-bottom > div'
+}
+
+export const ui_vision = {
+    firstFrameLink: 'https://ui.vision/demo/webtest/frames/frame_1.html',
+    firstFrameInput: '[name="mytext1"]',
+    SecondFrameLoc: 'frame[src="frame_2.html"]',
+    secondFrameInput: '[name="mytext2"]'
 }
