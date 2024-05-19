@@ -44,7 +44,11 @@ export const nopcommerce = {
 export const testautomationpractice = {
     CountryDropdown: '#country',
     MultiSelectDropdown: '#colors',
-    alertTextAnswer: '#demo'
+    alertTextAnswer: '#demo',
+    paginationTable: '#productTable',
+    paginationTableColumns: 'thead tr th',
+    paginationTableRows: 'tbody tr',
+    tableCheckbox: 'input'
 }
 
 export const jquery_az = {
