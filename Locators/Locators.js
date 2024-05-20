@@ -48,7 +48,8 @@ export const testautomationpractice = {
     paginationTable: '#productTable',
     paginationTableColumns: 'thead tr th',
     paginationTableRows: 'tbody tr',
-    tableCheckbox: 'input'
+    tableCheckbox: 'input',
+    allPagination: '.pagination li a'
 }
 
 export const jquery_az = {
