@@ -49,7 +49,11 @@ export const testautomationpractice = {
     paginationTableColumns: 'thead tr th',
     paginationTableRows: 'tbody tr',
     tableCheckbox: 'input',
-    allPagination: '.pagination li a'
+    allPagination: '.pagination li a',
+    datePickerInput: '#datepicker',
+    datePickerMonth: '.ui-datepicker-month',
+    datePickerYear: '.ui-datepicker-year',
+    allDatepickerDays: '.ui-state-default'
 }
 
 export const jquery_az = {
