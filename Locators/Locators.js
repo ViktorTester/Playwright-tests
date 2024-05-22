@@ -6,7 +6,9 @@ export const urls = {
     url5: 'https://jquery-az.com/boots/demo.php?ex=63.0_2',
     url6: 'https://www.redbus.in',
     url7: 'https://opensource-demo.orangehrmlive.com',
-    url8: 'https://ui.vision/demo/webtest/frames/'
+    url8: 'https://ui.vision/demo/webtest/frames/',
+    url9: 'https://demo.opencart.com',
+    url10: 'http://swisnl.github.io/jQuery-contextMenu/demo.html'
 }
 
 export const demoblaze = {
@@ -53,7 +55,8 @@ export const testautomationpractice = {
     datePickerInput: '#datepicker',
     datePickerMonth: '.ui-datepicker-month',
     datePickerYear: '.ui-datepicker-year',
-    allDatepickerDays: '.ui-state-default'
+    allDatepickerDays: '.ui-state-default',
+    input2: '#field2'
 }
 
 export const jquery_az = {
