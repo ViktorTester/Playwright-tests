@@ -8,7 +8,8 @@ export const urls = {
     url7: 'https://opensource-demo.orangehrmlive.com',
     url8: 'https://ui.vision/demo/webtest/frames/',
     url9: 'https://demo.opencart.com',
-    url10: 'http://swisnl.github.io/jQuery-contextMenu/demo.html'
+    url10: 'http://swisnl.github.io/jQuery-contextMenu/demo.html',
+    url11: 'http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html'
 }
 
 export const demoblaze = {
@@ -82,4 +83,12 @@ export const ui_vision = {
     thirdFrameLink: 'https://ui.vision/demo/webtest/frames/frame_3.html',
     thirdFrameInput: '[name="mytext3"]',
     radioOther: '#i5 > div.vd3tt > div'
+}
+
+export const dhtmlgoodies = {
+    madrid: '#box7',
+    spain: '#box107',
+    oslo: '#box1',
+    norway: '#box101'
+
 }

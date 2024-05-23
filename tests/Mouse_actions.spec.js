@@ -1,6 +1,7 @@
 import {
     urls as url,
-    testautomationpractice as tap
+    testautomationpractice as tap,
+    dhtmlgoodies as dg
 } from '/Users/aggro/WebstormProjects/Playwright tests/Locators/Locators.js'
 
 const {test, expect} = require('@playwright/test')
@@ -46,7 +47,31 @@ test('Mouse actions', async ({page}) => {
 
 
 // Drag and Drop (Перетаскивание)
+    await page.goto(url.url11)
+
+   // 1 метод:
+    // заносим предмет, который хотим перенести, в переменную
+    const madrid = await page.locator(dg.madrid)
+    // заносим место, куда хотим перенести, в переменную
+    const spain = await page.locator(dg.spain)
+
+    // наводим курсор на предмет
+    await madrid.hover()
+    // хватаем предмет
+    await page.mouse.down()
+    // заносим курсор со схваченным предметом
+    await spain.hover()
+    // отпускаем предмет
+    await page.mouse.up()
 
 
+   // 2 метод:
+    // заносим предмет, который хотим перенести, в переменную
+    const oslo = await page.locator(dg.oslo)
+    // заносим место, куда хотим перенести, в переменную
+    const norway = await page.locator(dg.norway)
+
+    // используя прямой метод, выполняем перетаскивание
+    await oslo.dragTo(norway)
 
 })
