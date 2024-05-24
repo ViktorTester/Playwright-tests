@@ -9,7 +9,8 @@ export const urls = {
     url8: 'https://ui.vision/demo/webtest/frames/',
     url9: 'https://demo.opencart.com',
     url10: 'http://swisnl.github.io/jQuery-contextMenu/demo.html',
-    url11: 'http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html'
+    url11: 'http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html',
+    url12: 'http://gotranscript.com/text-compare'
 }
 
 export const demoblaze = {
@@ -90,5 +91,8 @@ export const dhtmlgoodies = {
     spain: '#box107',
     oslo: '#box1',
     norway: '#box101'
+}
 
+export const gotranscript = {
+    textSample: 'Paste one version of the text',
 }
