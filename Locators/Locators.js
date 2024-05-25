@@ -10,7 +10,9 @@ export const urls = {
     url9: 'https://demo.opencart.com',
     url10: 'http://swisnl.github.io/jQuery-contextMenu/demo.html',
     url11: 'http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html',
-    url12: 'http://gotranscript.com/text-compare'
+    url12: 'http://gotranscript.com/text-compare',
+    url13: 'https://the-internet.herokuapp.com/upload',
+    url14 : 'https://davidwalsh.name/demo/multiple-file-upload.php'
 }
 
 export const demoblaze = {
@@ -95,4 +97,13 @@ export const dhtmlgoodies = {
 
 export const gotranscript = {
     textSample: 'Paste one version of the text',
+}
+
+export const herokuapp = {
+    selectFileBtn: '#file-upload'
+}
+
+export const davidwalsh = {
+    filesUploadBtn: '#filesToUpload',
+    uploadedFiles: '#fileList > li'
 }
