@@ -22,7 +22,8 @@ export const demoblaze = {
     loginSubmitBtn: '//*[@id="logInModal"]/div/div/div[3]/button[2]',
     logoutSection: '//*[@id="logout2"]',
     allProductLinkElement: '.card-title > a',
-    pageBanner: '.navbar-brand'
+    pageBanner: '.navbar-brand',
+    logoutBtn: '#logout2'
 }
 
 export const letcode = {
