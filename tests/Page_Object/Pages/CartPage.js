@@ -22,6 +22,7 @@ exports.CartPage =
                 console.log(await product.textContent())
                 // Затем извлекает из него текстовые значения (названия товаров),
                 // и если находит нужное (которое мы передаем как аргумент функции),
+                // то возвращает true, цикл прерывается.
                 if (productName === await product.textContent()) {
                     return true;
                 }
