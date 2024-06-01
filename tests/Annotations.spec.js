@@ -2,6 +2,10 @@ import {
     urls as url,
 } from '/Users/aggro/WebstormProjects/Playwright tests/Locators/Locators.js'
 
+// Разумеется, все аннотации в данном тестовом примере будут конфликтовать друг
+// с другом, поэтому для проверки конкретной, остальные нужно закомментить
+// в большинстве случаев.
+
 const {test, expect} = require('@playwright/test')
 
 // Запуск конкретного теста
