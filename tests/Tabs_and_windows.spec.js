@@ -1,6 +1,6 @@
 import {
     urls as url,
-    testautomationpractice as tap, letcode as lc
+    letcode as lc
 } from '/Users/aggro/WebstormProjects/Playwright tests/Locators/Locators.js'
 import {chromium} from "@playwright/test";
 
