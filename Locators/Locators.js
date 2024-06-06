@@ -12,7 +12,8 @@ export const urls = {
     url11: 'http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html',
     url12: 'http://gotranscript.com/text-compare',
     url13: 'https://the-internet.herokuapp.com/upload',
-    url14: 'https://davidwalsh.name/demo/multiple-file-upload.php'
+    url14: 'https://davidwalsh.name/demo/multiple-file-upload.php',
+    url15: 'https://reqres.in/api/'
 }
 
 export const demoblaze = {
